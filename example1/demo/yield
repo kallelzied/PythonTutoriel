@@ -1,0 +1,25 @@
+import pprint as pp
+
+
+def read_file(teams):
+    try:
+        f = open("soccer.txt", "r")
+        for soccer in read_soccer(f):
+            teams.append(soccer)
+        f.close()
+    except Exception:
+        print("Could not read file")
+
+
+def read_soccer(f):
+    for line in f:
+        yield line
+
+
+def main():
+    teams = []
+    read_file(teams)
+    pp.pprint(teams)
+
+
+if __name__ == "__main__": main()
