@@ -1,4 +1,4 @@
-"""multiple_state_variables_bp.py: Giving an example of best practicing with concatenating strings."""
+"""multiple_state_variables_bp.py: Giving an example of best practicing with multiple state variables."""
 
 __author__ = "Zied Kallel"
 __copyright__ = """

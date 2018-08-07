@@ -1,4 +1,4 @@
-"""multiple_state_variables_bp.py: Giving an example of best practicing with concatenating strings."""
+"""unpacking_sequences_bp.py: Giving an example of best practicing with unpacking sequences."""
 
 __author__ = "Zied Kallel"
 __copyright__ = """
